@@ -21,15 +21,16 @@ body {
   margin:0;
   font-family: 'Roboto', sans-serif,'Raleway', sans-serif;}
 
-  h1,h2,h3,h4,h5,h6 {margin: 0;}
+  h1,h2,h3,h4,h5,h6,p {
+  margin-top: 0;
+  margin-bottom: 0;}
 
 a {text-decoration: none;}  
 
-ul{list-style: none;
-margin: 0;
-padding: 0;}
-
-p {margin: 0;}
+ul, ol {list-style: none;
+margin-top: 0;
+margin-bottom: 0;
+padding-left: 0;}
 
 button {cursor: pointer;}
 
