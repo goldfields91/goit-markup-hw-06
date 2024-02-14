@@ -328,3 +328,18 @@ padding: 188px 0;
 .job-title {
   text-align: center;
 }
+
+.garage {
+  padding: 100px 0;
+}
+
+.container-garage {
+  width: 1158px;
+  margin-left: 156px;
+  padding: 0 15px; 
+}
+
+.garage-info {
+  margin-top: 16px;
+  width: 264px;
+}
