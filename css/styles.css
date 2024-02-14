@@ -32,6 +32,10 @@ margin-top: 0;
 margin-bottom: 0;
 padding-left: 0;}
 
+button {
+cursor: pointer;
+}
+
 img {display: block;}
 
 .web-logo, .studio-logo {
@@ -94,7 +98,6 @@ letter-spacing: 0.04em;
 color: var(--white-background-color);
 background-color: var(--primary-brand-color);
 border: 1px transparent;
-cursor: pointer;
 }
 
 .action-button:hover,
