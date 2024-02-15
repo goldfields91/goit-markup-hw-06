@@ -337,7 +337,7 @@ color: var(--light-mode-color);
   padding: 100px 0;
 }
 
-.garage-web .garage-studio {
+.garage-web  {
   display: inline-block;
   margin-bottom: 16px;
 }
