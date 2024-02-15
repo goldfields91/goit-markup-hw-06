@@ -207,27 +207,30 @@ letter-spacing: 0.02em;
 color: var(--light-mode-color);
 }
 
-              /* murkup-3 */
 
-.container-header {
-  display: flex;
-  align-items: center;
+.container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
 
+.container-navigation {
+  display: flex;
+  align-items: center;
+}
+
 .main-navigation {
 display: flex;
 align-items: center;
+margin-right: 332px;
 }
 
 .navigation {
   display: flex;
   gap: 40px;
-  padding-right: 332px;
-  padding-left: 76px;
 }
+ 
+.web-logo {margin-right: 76px;}
 
 .navigation-link {
   display: block;
@@ -245,10 +248,11 @@ align-items: center;
 
 .hero {
 text-align: center;
-padding: 188px 0;
+padding-top: 188px;
+padding-bottom: 188px;
 }
 
-.container-hero {
+.container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
