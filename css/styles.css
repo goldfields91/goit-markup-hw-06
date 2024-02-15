@@ -159,15 +159,17 @@ background-color: #404bbf;
   padding: 120px 0;
 }
 
-.visually-hidden{
+.visually-hidden {
   position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    overflow: hidden;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
   }
 
 .principels-list {
@@ -283,6 +285,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--hero-background-color);
+margin-bottom: 8px;
 }
 
 .portfolio-item {
