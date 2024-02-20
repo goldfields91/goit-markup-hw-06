@@ -74,14 +74,40 @@ display: flex;
 gap: 40px;
 }
 
-.navigation-link { 
+.navigation-link-active { 
+ position: relative;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-color: var(--hero-background-color);
+color: var(--pressed-state-color);
 letter-spacing: 0.02em;
 display: block;
 padding: 24px 0;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.navigation-link-active::after {
+  position: absolute;
+    content: '';
+    width: 100%;
+    height: 4px;
+    left: 0;
+    bottom: -1px;
+    border: none;
+    border-radius: 2px;
+    background-color: var(--pressed-state-color);
+}
+
+.navigation-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--hero-background-color);
+  letter-spacing: 0.02em;
+  display: block;
+  padding: 24px 0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .contacts-link {
