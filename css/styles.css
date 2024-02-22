@@ -330,8 +330,9 @@ margin-bottom: 8px ;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-icon-link:hover, .social-icon-link:focus {
-  background-color: var(--pressed-state-color);}
+.social-icon-link:hover, 
+.social-icon-link:focus {
+  background-color: #404BBF;}
 
 .portfolio {
 padding: 120px 0;
@@ -497,7 +498,7 @@ margin-right: 120px;
   height: 40px;
 }
 
-.social-icon-link {
+.footer-icon-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -513,5 +514,5 @@ margin-right: 120px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-icon-link:hover, .social-icon-link:focus {
+.footer-icon-link:hover, .footer-icon-link:focus {
   background-color: #31d0aa;}
