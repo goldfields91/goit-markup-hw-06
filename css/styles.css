@@ -331,7 +331,7 @@ margin-bottom: 8px ;
 }
 
 .social-icon-link:hover, .social-icon-link:focus {
-  background-color: #404bbf;}
+  background-color: var(--pressed-state-color);}
 
 .portfolio {
 padding: 120px 0;
